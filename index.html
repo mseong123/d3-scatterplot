@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>D3-Scatterplot</title>
+        <meta name="description" content="D3-Scatterplot">
+        <meta name="author" content="Mseong">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="stylesheet/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title">Doping in Professional Bicycle Racing</h1>
+            <h2 id="title2">35 Fastest times up Alpe d'Huez</h2>
+            
+            <div class="backdrop-container">
+            <svg id="svg" width="900" height="420"></svg>
+            </div>
+            <div id="legend">
+            <div class="doping">Riders with doping allegations<div></div></div>
+            <div class="no-doping">No doping allegations<div></div></div>
+            </div>
+            
+            <footer>*Source of Information - <span>Wikipedia</span></footer>  
+        </div>
+        <div id="tooltip"></div>
+        <div class="backdrop"></div>
+        <script src="https://d3js.org/d3.v5.js"></script>
+        <script src="script/script.js"></script>
+    </body>
+</html>
